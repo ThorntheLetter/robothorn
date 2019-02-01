@@ -1,2 +1,2 @@
 # robothorn
-wip twitch bot
+wip twitch bot with probably future discord integrations
