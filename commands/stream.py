@@ -1,3 +1,4 @@
+import datetime
 import apis.twitchhelix
 
 def uptime(username):
@@ -5,5 +6,6 @@ def uptime(username):
     start_string = response['started_at']
     stime = datetime.datetime.strptime(start_string, '%Y-%m-%dT%H:%M%SZ')
     deltat = datetime.datetime.utcnow()-stime
-
-
+    timestr = int(deltat.total_seconds())
+    message = timestr + " seconds"
+    return message

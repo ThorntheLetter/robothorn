@@ -2,7 +2,7 @@ import requests
 
 BASE_URL = https://api.twitch.tv/helix/
 
-def setauths(clientid=None, oath=None):
+def init(clientid=None, oath=None):
     global HEADER = {}
     if clientid:
         HEADER['Client-ID'] = clientid
