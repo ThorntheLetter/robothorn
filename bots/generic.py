@@ -1,18 +1,19 @@
 class Bot():
     def __init__(self):
-        pass
+        # set up all the bot stuff here
+        self.connect()
 
     def connect():
-        pass
+        raise NotImplementedError("Connect not implemented.")
 
     def disconnect():
-        pass
+        raise NotImplementedError("Disconnect not implemented.")
 
     def run():
         pass
 
     def die():
-        pass
+        raise NotImplementedError("Die not implemented.")
 
     def say():
         pass
