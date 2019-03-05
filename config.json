@@ -1,0 +1,18 @@
+{
+    "bots": {
+        "t-thorntheletter": {
+            "service" : "twitch",
+            "description": "Twitch bot on my channel.",
+            "prefix": ["!"],
+            "commands": {
+                "uptime": "twitch.uptime"
+            },
+            "args": {
+                "client-id": "",
+                "oauth": ""
+            }
+        }
+    },
+    "global_args": {}
+}
+

@@ -1,21 +1,23 @@
 class Bot():
     def __init__(self):
         # set up all the bot stuff here
-        self.connect()
+        self.run()
 
     def connect():
-        raise NotImplementedError("Connect not implemented.")
+        raise NotImplementedError("Method connect() is not implemented.")
 
     def disconnect():
-        raise NotImplementedError("Disconnect not implemented.")
+        raise NotImplementedError("Method disconnect() is not implemented.")
 
+    # might not need both these two and (dis)connect
     def run():
-        pass
+        raise NotImplementedError("Method run() is not implemented.")
 
     def die():
-        raise NotImplementedError("Die not implemented.")
+        raise NotImplementedError("Method die() is not implemented.")
 
     def say():
+        raise NotImplementedError("Method say() is not implemented.")
         pass
 
     def add_cmd():
