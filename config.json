@@ -6,7 +6,7 @@
             "description": "Twitch bot on my channel.",
             "prefixes": ["!"],
             "commands": {
-                "uptime": "twitch.uptime"
+                "uptime": "commands.stream.uptime"
             },
             "services": {},
             "args": {
